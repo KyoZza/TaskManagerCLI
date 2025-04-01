@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:TaskManagerCLI}",
+      "name": "Debug TaskManagerCLI",
+      "program": "${workspaceFolder:TaskManagerCLI}/.build/debug/TaskManagerCLI",
+      "preLaunchTask": "swift: Build Debug TaskManagerCLI"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:TaskManagerCLI}",
+      "name": "Release TaskManagerCLI",
+      "program": "${workspaceFolder:TaskManagerCLI}/.build/release/TaskManagerCLI",
+      "preLaunchTask": "swift: Build Release TaskManagerCLI"
+    }
+  ]
+}
